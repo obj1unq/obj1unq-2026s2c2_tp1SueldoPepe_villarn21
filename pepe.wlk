@@ -176,3 +176,22 @@ object ernesto{
         companero = _companero
     }
 }
+
+/*
+a)Describir los polimorfismos en tu solución, detallando:
+b)el tipo de los objetos polimórficos
+c)los mensajes que componen ese tipo
+d)los emisores de los mensajes polimórficos
+*/
+/*
+a)categoria, bonoResultado, bonoPresentismo y companero
+
+b)cateogira:Nuemero(sueldo)
+  bonoResultado:Numero(sueldo)
+  bonoPresentismo:Numero(sueldo)
+  companero:Numero(sueldoNeto)
+
+c)sueldo
+
+d)
+*/
