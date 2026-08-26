@@ -32,16 +32,14 @@ object pepe {
     }
 }
 object gerente {
-    var sueldo = 15000
     method sueldo(){
-        return sueldo
+        return 15000
     }
 }
 
 object cadete{
-    var sueldo = 20000
     method sueldo(){
-        return sueldo
+        return 20000
     }
 }
 
@@ -97,7 +95,7 @@ object moria {
     var bonoResultado = nulo
     var categoria = cadete
     method sueldo(){
-        return self.sueldoNeto() + (bonoResultado.sueldo(self) * 1.3)
+        return self.sueldoNeto() + bonoResultado.sueldo(self)
     }
     method sueldoNeto(){
         return categoria.sueldo() * 1.3
