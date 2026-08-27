@@ -176,20 +176,26 @@ object ernesto{
 }
 
 /*
-a)Describir los polimorfismos en tu solución, detallando:
-b)el tipo de los objetos polimórficos
-c)los mensajes que componen ese tipo
-d)los emisores de los mensajes polimórficos
+Describir los polimorfismos en tu solución, detallando:
+a)el tipo de los objetos polimórficos
+b)los mensajes que componen ese tipo
+c)los emisores de los mensajes polimórficos
 */
 /*
 a)categoria, bonoResultado, bonoPresentismo y companero
 
-b)cateogira:Nuemero(sueldo)
-  bonoResultado:Numero(sueldo)
-  bonoPresentismo:Numero(sueldo)
-  companero:Numero(sueldoNeto)
+b)cateogira:Number(sueldo)
+  bonoResultado:Number(sueldo)
+  bonoPresentismo:Number(sueldo)
+  companero:Number(sueldo)
 
-c)sueldo
+c)categoria: pepe, moria, medioTiempo
+  bonoResultado: pepe, moria, roque
+  bonoPresentismo: pepe, ernesto
+  companero: ernesto
+*/
 
-d)
+/*Encontrar (en toda la solución) un mensaje que sea una orden y otro que sea una consulta
+orden: companero(_companero)
+consulta: sueldoNeto()
 */
